@@ -1,6 +1,7 @@
 #include <iostream> // preprocess statement they happen ust before main program
 // include will find a file, take all of the contents of that file  and paste it into the current file, 
 // the file that we include is called header file.
+// Some preprocess statement: include, define, if, ifdef, pragma statements
 
 int main() //entry point for  our application
 // means when we run our app our computer execute the code that begins in this function
