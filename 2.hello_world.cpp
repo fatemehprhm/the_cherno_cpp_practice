@@ -1,5 +1,6 @@
-#include <iostream>
-#include "Log.h"
+#include <iostream> // there are some paths in the computer that contain header files, if our header file is there we can use <>
+// these header directories are called include directory, for this case it is also ok to use ""
+#include "Log.h" // if its path is relative to the current file we use ""
 
 // declaration: We are declaring that sth called "Log" exists
 // this is like a promise because we say to complier that there is function called Log and it trusts us

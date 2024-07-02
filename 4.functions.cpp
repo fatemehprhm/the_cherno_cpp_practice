@@ -1,5 +1,9 @@
 #include <iostream>
 
+// #pragma once: it comes in the header file. Its a preprocessor command
+// it means only include this file once, its called header gaurd, it prevent use
+// from including a single header file multiple times into a single translation unit
+
 void multiply(int a, int b)
 {
     int result = a * b;
