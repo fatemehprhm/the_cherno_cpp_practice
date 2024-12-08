@@ -8,6 +8,9 @@
 // declaration is very similar to definition however what it doesnt have is the actual body.
 // definition: is sth that says this is what this function is
 
+// Linkers are tools used in C++ to combine multiple object files (.o or .obj files) and libraries into a single executable file. 
+// They handle the task of resolving references between functions, variables, or symbols that are declared in one file but used in another.
+
 int main() 
 {
     Log("hello world");
@@ -25,19 +28,17 @@ int main()
 // #define x y
 // define: basically just do a search for x word and replace it with whatever follow (y)
 
-// if pre processor can let us include or exclude code based on a given condition
-
-// obj file is a binary file , if we want to read it we turn it into a .asm foramt which is the readable result of obj file
+// obj file is a binary file , if we want to read it we turn it into a .asm format which is the readable result of obj file
 
 // #if pre processor can let us include or exclude code based on a given condition
 
 // the primary focus of linking is to find where each symbol and function is and link them together
-// even if we dont hae multiple cpp file, when building the program, we need to declare the entry point which links to the main file
+// even if we dont have multiple cpp file, when building the program, we need to declare the entry point which links to the main file
 // the entry point doesnt have to be main function there just has to be an entry point
 
 // if error starts with letter c its compiler error and if it starts with letter lnk its linker error
 
-// suppose that you have a function that has error in it, but you never use it in the main funvtion, the program will give you error
+// suppose that you have a function that has error in it, but you never use it in the main function, the program will give you error
 // why? because you could use it in another file, and linker does need to link that but if we tell the compiler we will
 // use this function only on this file, the problem solves, how? put "static" before function definition
 
